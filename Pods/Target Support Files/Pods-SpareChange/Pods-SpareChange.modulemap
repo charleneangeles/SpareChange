@@ -1,0 +1,6 @@
+framework module Pods_SpareChange {
+  umbrella header "Pods-SpareChange-umbrella.h"
+
+  export *
+  module * { export * }
+}
