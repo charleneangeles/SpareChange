@@ -12,6 +12,12 @@
 		F239A0E41FA0378600BC7D46 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F239A0E31FA0378600BC7D46 /* RegisterViewController.swift */; };
 		F239A0E61FA037B400BC7D46 /* MainMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F239A0E51FA037B400BC7D46 /* MainMenuViewController.swift */; };
 		F239A0E81FA04B9A00BC7D46 /* UIHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = F239A0E71FA04B9A00BC7D46 /* UIHelpers.swift */; };
+		F2A407E71FB40262002677B0 /* HomeMenu.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2A407E61FB40262002677B0 /* HomeMenu.storyboard */; };
+		F2A407EB1FB416A3002677B0 /* SideMenu.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2A407EA1FB416A3002677B0 /* SideMenu.storyboard */; };
+		F2A407ED1FB416EC002677B0 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2A407EC1FB416EC002677B0 /* SettingsViewController.swift */; };
+		F2A407EF1FB41737002677B0 /* SideMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2A407EE1FB41737002677B0 /* SideMenuViewController.swift */; };
+		F2A407F11FB41A6E002677B0 /* SpareChange in Resources */ = {isa = PBXBuildFile; fileRef = F2A407F01FB41A6E002677B0 /* SpareChange */; };
+		F2A407F81FB41AD6002677B0 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F2A407F61FB41AD6002677B0 /* SWRevealViewController.m */; };
 		F2E5FEEC1FA0163B008E7DA0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2E5FEEB1FA0163B008E7DA0 /* AppDelegate.swift */; };
 		F2E5FEEE1FA0163B008E7DA0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2E5FEED1FA0163B008E7DA0 /* ViewController.swift */; };
 		F2E5FEF11FA0163B008E7DA0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2E5FEEF1FA0163B008E7DA0 /* Main.storyboard */; };
@@ -30,6 +36,14 @@
 		F239A0E31FA0378600BC7D46 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		F239A0E51FA037B400BC7D46 /* MainMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenuViewController.swift; sourceTree = "<group>"; };
 		F239A0E71FA04B9A00BC7D46 /* UIHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIHelpers.swift; sourceTree = "<group>"; };
+		F2A407E61FB40262002677B0 /* HomeMenu.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = HomeMenu.storyboard; sourceTree = "<group>"; };
+		F2A407EA1FB416A3002677B0 /* SideMenu.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = SideMenu.storyboard; sourceTree = "<group>"; };
+		F2A407EC1FB416EC002677B0 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		F2A407EE1FB41737002677B0 /* SideMenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideMenuViewController.swift; sourceTree = "<group>"; };
+		F2A407F01FB41A6E002677B0 /* SpareChange */ = {isa = PBXFileReference; lastKnownFileType = folder; name = SpareChange; sourceTree = "<group>"; };
+		F2A407F61FB41AD6002677B0 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		F2A407F71FB41AD6002677B0 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		F2A407F91FB41ADC002677B0 /* SideMenuTutorial-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SideMenuTutorial-Bridging-Header.h"; sourceTree = "<group>"; };
 		F2E5FEE81FA0163B008E7DA0 /* SpareChange.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpareChange.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2E5FEEB1FA0163B008E7DA0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F2E5FEED1FA0163B008E7DA0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -72,7 +86,9 @@
 		F239A0E01FA0374600BC7D46 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				F2A407EC1FB416EC002677B0 /* SettingsViewController.swift */,
 				F239A0E11FA0377200BC7D46 /* LoginViewController.swift */,
+				F2A407EE1FB41737002677B0 /* SideMenuViewController.swift */,
 				F239A0E31FA0378600BC7D46 /* RegisterViewController.swift */,
 				F239A0E51FA037B400BC7D46 /* MainMenuViewController.swift */,
 				F239A0E71FA04B9A00BC7D46 /* UIHelpers.swift */,
@@ -81,11 +97,34 @@
 			path = Controllers;
 			sourceTree = "<group>";
 		};
+		F2A407E51FB40205002677B0 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				F2E5FEEF1FA0163B008E7DA0 /* Main.storyboard */,
+				F2A407E61FB40262002677B0 /* HomeMenu.storyboard */,
+				F2A407EA1FB416A3002677B0 /* SideMenu.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		F2A407F51FB41A79002677B0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F2A407F71FB41AD6002677B0 /* SWRevealViewController.h */,
+				F2A407F91FB41ADC002677B0 /* SideMenuTutorial-Bridging-Header.h */,
+				F2A407F61FB41AD6002677B0 /* SWRevealViewController.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		F2E5FEDF1FA0163A008E7DA0 = {
 			isa = PBXGroup;
 			children = (
+				F2A407F51FB41A79002677B0 /* Supporting Files */,
+				F2A407E51FB40205002677B0 /* Storyboards */,
 				F239A0E01FA0374600BC7D46 /* Controllers */,
 				F2E5FEEA1FA0163B008E7DA0 /* SpareChange */,
+				F2A407F01FB41A6E002677B0 /* SpareChange */,
 				F2E5FEE91FA0163B008E7DA0 /* Products */,
 				1C4BCE87A838EA1DE1B60371 /* Pods */,
 				0B359475C4B656BB8C2DC05C /* Frameworks */,
@@ -105,7 +144,6 @@
 			children = (
 				F2E5FEEB1FA0163B008E7DA0 /* AppDelegate.swift */,
 				F2E5FEED1FA0163B008E7DA0 /* ViewController.swift */,
-				F2E5FEEF1FA0163B008E7DA0 /* Main.storyboard */,
 				F2E5FEF21FA0163B008E7DA0 /* Assets.xcassets */,
 				F2E5FEFD1FA0170E008E7DA0 /* GoogleService-Info.plist */,
 				F2E5FEF41FA0163B008E7DA0 /* LaunchScreen.storyboard */,
@@ -149,6 +187,7 @@
 				TargetAttributes = {
 					F2E5FEE71FA0163B008E7DA0 = {
 						CreatedOnToolsVersion = 9.0.1;
+						LastSwiftMigration = 0910;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -176,10 +215,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F2A407EB1FB416A3002677B0 /* SideMenu.storyboard in Resources */,
 				F2E5FEF61FA0163B008E7DA0 /* LaunchScreen.storyboard in Resources */,
 				F2E5FEF31FA0163B008E7DA0 /* Assets.xcassets in Resources */,
 				F2E5FEF11FA0163B008E7DA0 /* Main.storyboard in Resources */,
+				F2A407F11FB41A6E002677B0 /* SpareChange in Resources */,
 				F2E5FEFE1FA0170E008E7DA0 /* GoogleService-Info.plist in Resources */,
+				F2A407E71FB40262002677B0 /* HomeMenu.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,6 +301,9 @@
 				F239A0E81FA04B9A00BC7D46 /* UIHelpers.swift in Sources */,
 				F2E5FEEC1FA0163B008E7DA0 /* AppDelegate.swift in Sources */,
 				F239A0E41FA0378600BC7D46 /* RegisterViewController.swift in Sources */,
+				F2A407F81FB41AD6002677B0 /* SWRevealViewController.m in Sources */,
+				F2A407EF1FB41737002677B0 /* SideMenuViewController.swift in Sources */,
+				F2A407ED1FB416EC002677B0 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -396,12 +441,15 @@
 			baseConfigurationReference = 42A6ED41FA3A4F276FFC4F68 /* Pods-SpareChange.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Q5GER5EN5K;
 				INFOPLIST_FILE = SpareChange/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.deHao.SpareChange;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Side Bar Files/SpareChange-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -412,12 +460,14 @@
 			baseConfigurationReference = 315DC5A67E7B714DDC289E9D /* Pods-SpareChange.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Q5GER5EN5K;
 				INFOPLIST_FILE = SpareChange/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.deHao.SpareChange;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Side Bar Files/SpareChange-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
